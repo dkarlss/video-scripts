@@ -1,0 +1,1 @@
+0 5 * * * /home/username/bin/build_video_web.sh >> /var/log/build_video_web.log 2>&1

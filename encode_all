@@ -1,2 +1,0 @@
-find /home/username -name "*.avi" -exec /home/username/bin/h264encode "{}" \;
-find /home/username -name "*.mkv" -exec /home/username/bin/h264encode "{}" \;
