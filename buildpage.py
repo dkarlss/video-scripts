@@ -2,8 +2,6 @@
 # This script creates a html page with links using HTML5 video tags to
 # all files given as arguments.
 #
-# by David Karlsson
-#
 import sys
 from string import Template
 
