@@ -1,0 +1,6 @@
+#!/bin/bash
+ROOT_DIR=$1
+SCRIPT_PATH=$2
+find "$ROOT_DIR" -name "*.mp4" -type f -exec ln -s {} \;
+find . -name "*.mp4" | sort -h > filelist.txt
+python "$SCRIPT_PATH"/buildpage.py filelist.txt

@@ -1,0 +1,8 @@
+#!/bin/bash
+ROOT_DIR=$1
+SCRIPT_PATH=$2
+sudo rm /var/www/*
+cd /var/www
+
+sudo $SCRIPT_PATH/create_links "$ROOT_DIR" "$SCRIPT_PATH"
+

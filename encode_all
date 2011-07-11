@@ -1,0 +1,6 @@
+#!/bin/bash
+ROOT_DIR=$1
+SCRIPT_PATH=`dirname $0`
+
+find "$1" -name "*.avi" -exec "$SCRIPT_PATH"/h264encode "{}" \;
+find "$1" -name "*.mkv" -exec "$SCRIPT_PATH"/h264encode "{}" \;

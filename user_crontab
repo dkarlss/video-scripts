@@ -1,1 +1,2 @@
-0 0 * * * /home/david/bin/encode_all.sh >> /tmp/encode_all.log 2>&1
+0 0 * * * /home/testuser/bin/encode_all /home/testuser >> /tmp/testuser_encode_all.log 2>&1
+
